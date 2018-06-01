@@ -1,8 +1,67 @@
+/* {
+    outline: 1px dotted green !important;
+    font-stretch: ultra-expanded;
+}*/
+
+
 body {
     font-family: 'Raleway', sans-serif;
-    font-style: 100;
+    font-weight: 400;
 }
 
-.logo {
-    margin-top: 20px;
+.title {
+    margin-top: 16px;
+    align-items: flex-end;
+    color: #666756;
+}
+
+.title h1 {
+    font-size: 64px;
+    font-weight: 100;
+}
+
+.title h4 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.main {
+    margin-bottom: 32px;
+}
+
+.main img {
+    width: 1140px;
+    height: auto;
+
+}
+.projects {
+    text-align: center;
+    color: #BCBBBB;
+}
+
+.projects img {
+    width: 350px;
+    height: auto;
+}
+
+.projects-title h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #BCBBBB;
+}
+
+.project-title {
+    padding: 8px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    color: #666756;
+}
+
+.project-link {
+    font-size: 20px;
+    font-weight: 100;
+    color: #666756;
 }
