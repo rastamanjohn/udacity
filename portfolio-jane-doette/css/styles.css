@@ -25,6 +25,11 @@ body {
     font-weight: 400;
 }
 
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #BCBBBB;
+}
 .main {
     margin-bottom: 32px;
 }
@@ -61,6 +66,7 @@ body {
 }
 
 .project-link {
+    margin-bottom: 32px;
     font-size: 20px;
     font-weight: 100;
     color: #666756;
